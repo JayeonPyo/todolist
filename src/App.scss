@@ -1,79 +1,49 @@
-.App {
-
-  display: inline;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+*{
+    background-color: lightgrey;
 }
 
-#logo{
-
-  margin-top: 170px;
-
-}
-
-.putbox{
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.put{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
-  width: 30%;
-  box-shadow: 0px 0px 1px 1px #d3d3d3;
-  
-}
-
-input{
-  width: 550px;
-  outline: none;
-  border: none;
+.divbox{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: 3px white solid;
+    width: 30%;
 }
 
 
+.name{
 
-.div1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-#searchlogo2{
-  margin-top: 10px;
-  width: 120px;
-}
-
-
-#button1{
-  margin-left: 10px;
-}
-
-#button2{
-  margin-right: 10px;
+   
+    font-size: 50px;
+    font-style: italic;
+    color: gray;
+    font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+    border: 3px darkgray solid;
+    padding: 10px;
 }
 
 
+#input{
+    outline: none;
+    border: none;
+   height: 50px;
+   font-size: 20px;
+   font-family: 'Nanum Gothic', sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
 
-#imfeeling{
-  margin-top: 10px;
-  margin-left: 10px;
 }
-header{
-  display:flex;
-  justify-content: center;
-}
-#top{
-  position: absolute;
-  top:0px;
-  right: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-#top *{
-  margin: 10px;
+
+#button{
+    height: 60px;
+    width: 100px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    background-color: darkgrey;
+    font-family: 'Nanum Gothic', sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
+
 }

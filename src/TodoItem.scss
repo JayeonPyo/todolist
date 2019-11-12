@@ -1,0 +1,38 @@
+#modify{
+    height: 50px;
+    width: 80px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: darkgrey;
+    font-family: 'Nanum Gothic', sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+#delete{
+
+  
+    height: 50px;
+    width: 80px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: darkgrey;
+    font-family: 'Nanum Gothic', sans-serif;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+#divbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 3px white solid;
+    width: 30%;
+}
+
+.todo{
+    text-align: center;
+
+}
